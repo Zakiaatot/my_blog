@@ -19,7 +19,7 @@ first_screen:
   enable: true # Option values: true | false
   background_img: /
   background_img_dark: /
-  description: Keep coding, keep learning.
+  description: Keep coding, keep learning and keep sharing!
   hitokoto: false # Option values: true | false
 
 social_contact:
