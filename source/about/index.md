@@ -8,4 +8,4 @@ comments: true
 
 - HQUer, Software developer\maintainer, Geeker!
 - 精通 C++, Vue, Rust, JavaScript, Shell, C, Kotlin 打印输出 hello world!
-- Keep coding, Keep learning and keep sharing!
+- Keep coding, Keep learning and Keep sharing!
