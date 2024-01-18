@@ -1,0 +1,89 @@
+base_info:
+  primary_color: "#990033"
+  title: Zephyr's Blog
+  author: Zephyr Cheung
+  avatar: /images/avatar.jpeg
+  logo: /images/logo.png
+  favicon: /images/logo.png
+
+menu:
+  Home: / # 首页
+  Archives: /archives # 归档
+  Categories: /categories # 分类
+  Tags: /tags # 标签
+  # Links: /links                 # 链接
+  About: /about # 关于
+  # Photos: /photos               # 相册
+
+first_screen:
+  enable: true # Option values: true | false
+  background_img: /
+  background_img_dark: /
+  description: Keep coding, keep learning.
+  hitokoto: false # Option values: true | false
+
+social_contact:
+  enable: true # Option values: true | false
+  links:
+    github: https://github.com/zakiaatot # GitHub
+
+scroll:
+  progress_bar: true
+
+home:
+  category: true # Option values: true | false
+  tag: true # Option values: true | false
+  # announcement: "Welcome to Zephyr's Blog!"
+
+post:
+  author_badge:
+    enable: false # Option values: true | false
+    level_badge: true # Option values: true | false
+    custom_badge: ["One", "Two", "Three"]
+  word_count:
+    wordcount: true # Word count, one article. Option values: true | false
+    min2read: true # Time to read, one article. Option values: true | false
+  datetime_format: "YYYY-MM-DD HH:mm:ss" # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+  copyright_info: true # Option values: true | false
+  share: true # Option values: true | false
+  reward:
+    enable: false # Option values: true | false
+    img_link: # Image link for the payment QR code
+    text: # Custom reward text, Can be null
+
+code_block:
+  tools:
+    enable: true # Option values: true | false
+    style: mac # Option values: default | mac
+  highlight_theme: obsidian # Option values: default | obsidian
+
+toc:
+  enable: true # Option values: true | false
+  number: false # Option values: true | false
+  expand_all: false # Option values: true | false
+  init_open: true # Option values: true | false
+  layout: right
+
+website_count:
+  busuanzi_count:
+    enable: true # Option values: true | false
+    site_uv: true # Option values: true | false
+    site_pv: true # Option values: true | false
+    page_pv: true # Option values: true | false
+
+local_search:
+  enable: true # Option values: true | false
+  preload: true # Preload the search data when the page loads
+
+rss:
+  enable: true # Option values: true | false
+
+lazyload:
+  enable: true # Option values: true | false
+
+cdn:
+  enable: true # Option values: true | false
+  provider: cdnjs # Option values: cdnjs | jsdelivr | unpkg
+
+pjax:
+  enable: true # Option values: true | false
