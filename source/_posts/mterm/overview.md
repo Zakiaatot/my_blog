@@ -88,4 +88,5 @@ Vue-(webview)-Kotlin-(jni)-Rust-(ffi)-C++
 
 根据对项目的理解，我将项目划分为项目自述中所提到的 3 个部分，即 libmterm、mterm、mterm_packages。
 而我对此项目的讲解，也将分为这 3 个主体部分，外加此概述和最后总结 2 个部分。亦即总共 5 个部分。
+顺序方面我将按照 `伪终端后端->伪终端前端->伪终端环境与包`来进行讲解。
 接下来是 [libmterm](https://blog.hackerfly.cn/2024/01/19/mterm/libmterm) 的详细讲解。
